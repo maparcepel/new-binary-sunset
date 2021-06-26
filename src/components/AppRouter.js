@@ -18,9 +18,10 @@ const AppRouter = () => {
         <Router>
             <div>
                 
-                <NavBar />
-
-                <div className="container-fluid">
+                <div className="container">
+                    
+                    <NavBar />
+                    
                     <Switch>
                         <Route exact path="/" component={ Inicio } />
 
