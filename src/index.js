@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AppRouter from './components/AppRouter.js';
+import './styles/styles.scss';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render( <
-    App / > ,
+ReactDOM.render( 
+    < AppRouter / > ,
     document.getElementById('root')
 );
 

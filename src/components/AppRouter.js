@@ -9,9 +9,9 @@ import {
 import { Inicio } from './Inicio';
 import { Equipamiento } from './Equipamiento';
 import { Artistas } from './Artistas';
-import { Imagenes } from './Imagenes';
+import { Fotos } from './Fotos';
 import { Contacto } from './Contacto';
-import { NavBar } from './NavBar';
+import { NavBar } from './navbar/NavBar';
 
 const AppRouter = () => {
     return ( 
@@ -26,7 +26,7 @@ const AppRouter = () => {
 
                         <Route exact path="/Equipamiento" component={ Equipamiento } />
                         <Route exact path="/Artistas" component={ Artistas } />
-                        <Route exact path="/Imagenes" component={ Imagenes } />
+                        <Route exact path="/Fotos" component={ Fotos } />
                         <Route exact path="/Contacto" component={ Contacto } />
 
                         <Redirect to="/" />

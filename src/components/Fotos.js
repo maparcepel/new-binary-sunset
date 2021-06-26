@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Imagenes = () => {
+export const Fotos = () => {
     return ( <
         div >
-        Imagenes <
+        Fotos <
         /div>
     )
 }
