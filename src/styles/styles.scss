@@ -14,3 +14,21 @@ body {
     font-size: 1.2em;
     color: white
 }
+
+//INICIO
+.inicio-carousel {
+    position: relative;
+}
+
+.inicio-img1 {
+    position: absolute;
+    z-index: 10;
+}
+
+.inicio-img2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    transition: opacity 1s ease-in-out;
+}
