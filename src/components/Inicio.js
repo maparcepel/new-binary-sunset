@@ -16,13 +16,13 @@ export const Inicio = () => {
                     ? setOpacity('1')
                     :setOpacity('0')
             }
-        }, 2000);
+        }, 5000);
         
         return () => mounted = false;  //Evita error: Can't perform a React state update on an unmounted component
       }, [opacity]);
     
     return (
-        <div className="inicio-carousel mt-5">
+        <div className="inicio-carousel">
             
             <img className="inicio-img1 img-fluid" src={ '/assets/img/index1.jpg' } alt="First slide"/>
             <img className="inicio-img2 img-fluid" style={{ opacity: opacity}} src={ '/assets/img/index2.jpg' } alt="Second slide"/>
