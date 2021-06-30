@@ -18,7 +18,7 @@ const AppRouter = () => {
         <Router>
             <div>
                 
-                <div className="container">
+                
                     
                     <NavBar />
                     
@@ -33,7 +33,7 @@ const AppRouter = () => {
                         <Redirect to="/" />
 
                     </Switch>
-                </div>
+                
             </div>
         </Router>
     )
