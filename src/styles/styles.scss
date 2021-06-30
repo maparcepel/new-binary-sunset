@@ -18,11 +18,9 @@ body {
 //INICIO
 .inicio-carousel {
     position: relative;
-}
-
-.inicio-img1 {
-    position: absolute;
-    z-index: 10;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .inicio-img2 {
@@ -31,4 +29,11 @@ body {
     left: 0px;
     z-index: 11;
     transition: opacity 1s ease-in-out;
+}
+
+@media screen and (min-width: 1200px) {
+    .inicio-text {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }

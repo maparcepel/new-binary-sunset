@@ -7,8 +7,8 @@ export function NavBar() {
 
   const handleClick = () => setClick(!click);
   return (
-    <>
-      <nav className="navbar">
+    
+      <nav className="container navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <img src={ '/assets/img/logo1.png' } alt="Binary Sunset" />
@@ -87,11 +87,11 @@ export function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            <i className={click ? "" : "fas fa-bars"}></i>
           </div>
         </div>
       </nav>
-    </>
+    
   );
 }
 
