@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/new-binary-sunset/static/css/main.99cce856.chunk.css",
-    "main.js": "/new-binary-sunset/static/js/main.876e43b0.chunk.js",
-    "main.js.map": "/new-binary-sunset/static/js/main.876e43b0.chunk.js.map",
+    "main.js": "/new-binary-sunset/static/js/main.26cd21e1.chunk.js",
+    "main.js.map": "/new-binary-sunset/static/js/main.26cd21e1.chunk.js.map",
     "runtime-main.js": "/new-binary-sunset/static/js/runtime-main.b1f84b30.js",
     "runtime-main.js.map": "/new-binary-sunset/static/js/runtime-main.b1f84b30.js.map",
     "static/js/2.7c9f1bc8.chunk.js": "/new-binary-sunset/static/js/2.7c9f1bc8.chunk.js",
@@ -12,12 +12,16 @@
     "index.html": "/new-binary-sunset/index.html",
     "static/css/main.99cce856.chunk.css.map": "/new-binary-sunset/static/css/main.99cce856.chunk.css.map",
     "static/js/2.7c9f1bc8.chunk.js.LICENSE.txt": "/new-binary-sunset/static/js/2.7c9f1bc8.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/new-binary-sunset/static/media/background.e9985e83.jpg"
+    "static/media/styles.scss": "/new-binary-sunset/static/media/background.e9985e83.jpg",
+    "static/media/index1.84c41c97.jpg": "/new-binary-sunset/static/media/index1.84c41c97.jpg",
+    "static/media/index2.a7a150bb.jpg": "/new-binary-sunset/static/media/index2.a7a150bb.jpg",
+    "static/media/inicio-gruposBN.ca544795.png": "/new-binary-sunset/static/media/inicio-gruposBN.ca544795.png",
+    "static/media/logo1.75042996.png": "/new-binary-sunset/static/media/logo1.75042996.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b1f84b30.js",
     "static/js/2.7c9f1bc8.chunk.js",
     "static/css/main.99cce856.chunk.css",
-    "static/js/main.876e43b0.chunk.js"
+    "static/js/main.26cd21e1.chunk.js"
   ]
 }
