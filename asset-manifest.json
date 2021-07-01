@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/new-binary-sunset/static/css/main.aac52cc7.chunk.css",
-    "main.js": "/new-binary-sunset/static/js/main.b06c64f0.chunk.js",
-    "main.js.map": "/new-binary-sunset/static/js/main.b06c64f0.chunk.js.map",
+    "main.css": "/new-binary-sunset/static/css/main.5422b986.chunk.css",
+    "main.js": "/new-binary-sunset/static/js/main.8d6cd4b2.chunk.js",
+    "main.js.map": "/new-binary-sunset/static/js/main.8d6cd4b2.chunk.js.map",
     "runtime-main.js": "/new-binary-sunset/static/js/runtime-main.b1f84b30.js",
     "runtime-main.js.map": "/new-binary-sunset/static/js/runtime-main.b1f84b30.js.map",
     "static/js/2.7c9f1bc8.chunk.js": "/new-binary-sunset/static/js/2.7c9f1bc8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a507891e.chunk.js": "/new-binary-sunset/static/js/3.a507891e.chunk.js",
     "static/js/3.a507891e.chunk.js.map": "/new-binary-sunset/static/js/3.a507891e.chunk.js.map",
     "index.html": "/new-binary-sunset/index.html",
-    "static/css/main.aac52cc7.chunk.css.map": "/new-binary-sunset/static/css/main.aac52cc7.chunk.css.map",
+    "static/css/main.5422b986.chunk.css.map": "/new-binary-sunset/static/css/main.5422b986.chunk.css.map",
     "static/js/2.7c9f1bc8.chunk.js.LICENSE.txt": "/new-binary-sunset/static/js/2.7c9f1bc8.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/new-binary-sunset/static/media/background.e9985e83.jpg",
     "static/media/index1.84c41c97.jpg": "/new-binary-sunset/static/media/index1.84c41c97.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b1f84b30.js",
     "static/js/2.7c9f1bc8.chunk.js",
-    "static/css/main.aac52cc7.chunk.css",
-    "static/js/main.b06c64f0.chunk.js"
+    "static/css/main.5422b986.chunk.css",
+    "static/js/main.8d6cd4b2.chunk.js"
   ]
 }
