@@ -40,5 +40,8 @@
     },
     "devDependencies": {
         "sass": "^1.35.1"
-    }
+    },
+
+    "homepage": "https://maparcepel.github.io/new-binary-sunset/"
+
 }
