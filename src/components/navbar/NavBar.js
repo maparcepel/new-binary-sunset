@@ -12,7 +12,24 @@ import contacto from '../img/menu-contacto.png';
 export function NavBar() {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  
+
+  const handleClick = () => {
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    if (viewportWidth <= 991) {
+      setClick(!click)
+    }
+  };
+
+  
+    // window.addEventListener("click", function(e){
+    //   if( !document.getElementsByClassName('nav-menu')[0].contains(e.target) && e.target !== document.getElementsByClassName('fas')[0]){
+    //     setClick(false);
+    //   }
+      
+    // });
+
+
   return (
     
       <nav className="container navbar">

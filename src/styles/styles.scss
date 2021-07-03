@@ -1,4 +1,9 @@
 $background: #821410;
+$orange: #e89c48;
+.orange {
+    color: $orange;
+}
+
 html,
 body {
     height: 100%;
@@ -61,4 +66,15 @@ body {
         text-align: justify;
         margin-top: 30px;
     }
+}
+
+//EQUIPAMIENTO
+#equipamiento ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#equipamiento li {
+    padding-left: 16px;
+    background: url('../components/img/eq_list.png') 0 11px no-repeat;
 }
