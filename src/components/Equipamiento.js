@@ -15,7 +15,7 @@ export const Equipamiento = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-6  mt-5">
 
-                    <h5 className="orange">GRAVACIÓ - MONITORATGE:</h5>
+                    <h5 className="orange">GRABACIÓN - MONITORAJE:</h5>
                     <ul >
 
                         <li>Pro Tools 11</li>
@@ -23,9 +23,9 @@ export const Equipamiento = () => {
                         <li>Mac i7 4 ghz 32 gb ram</li>
                         <li>Mixer Fostex 450 16ch</li>
                         <li>Focusrite Liquid Saffire 56 </li>
-                        <li>Altaveus Focal CMS 65, Yamaha HS50M, subgreus PreSonus Temblor T10</li>
-                        <li>9 auriculars AKG, Audiotechnica, Sennheiser</li>
-                        <li>KRK Ergo (analitzador i corrector acústic)</li>
+                        <li>Altavocess Focal CMS 65, Yamaha HS50M, subgraves PreSonus Temblor T10</li>
+                        <li>9 auriculares AKG, Audiotechnica, Sennheiser</li>
+                        <li>KRK Ergo (analizador y corrector acústico)</li>
                         <li>Eco de cinta Roland Space Echo RE-201</li>
                      </ul>   
                         <h5 className="orange mt-5">MICROFONÍA:</h5>
@@ -59,7 +59,7 @@ export const Equipamiento = () => {
                             <li>Pantalla CMB (2 x 15", 100 w, 32 ohms)</li>
                             <li>Amplificador de teclat Hartke km200</li>
                         </ul>  
-                        <h5 className="orange">Sintetitzadors:</h5>
+                        <h5 >SINTETIZADORES:</h5>
                         <ul >
                             <li>Arturia Matrixbrute</li>
                             <li>MFB Dominion X</li>
@@ -68,7 +68,7 @@ export const Equipamiento = () => {
                             <li>Moog Theremini</li>
                             <li>Moog Theremin Etherwave</li>
                          </ul >   
-                         <h5 className="orange">Pedals:</h5>
+                         <h5>PEDALES:</h5>
                          <ul >
                             <li>EHX Stereo Memory Man</li>
                             <li>EHX Talking Machine</li>
