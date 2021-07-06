@@ -1,23 +1,47 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import logo from '../img/logo1.png';
+import inicio from '../img/menu-inicio.png';
+import equipamiento from '../img/menu-equipamiento.png';
+import artistas from '../img/menu-artistas.png';
+import fotos from '../img/menu-fotos.png';
+import contacto from '../img/menu-contacto.png';
+
 
 export function NavBar() {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  
+
+  const handleClick = () => {
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    if (viewportWidth <= 991) {
+      setClick(!click)
+    }
+  };
+
+  
+    // window.addEventListener("click", function(e){
+    //   if( !document.getElementsByClassName('nav-menu')[0].contains(e.target) && e.target !== document.getElementsByClassName('fas')[0]){
+    //     setClick(false);
+    //   }
+      
+    // });
+
+
   return (
     
       <nav className="container navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <img src={ '/assets/img/logo1.png' } alt="Binary Sunset" />
+            <img src={ logo } alt="Binary Sunset" />
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <div className="mb-3">
-                <img src={ 'assets/img/menu-inicio.png' } alt="" />
+                <img src={ inicio } alt="" />
               </div>
               <NavLink
                 exact
@@ -31,7 +55,7 @@ export function NavBar() {
             </li>
             <li className="nav-item">
               <div className="mb-3">
-                <img src={ 'assets/img/menu-equipamiento.png' } alt="" />
+                <img src={ equipamiento } alt="" />
               </div>
               <NavLink
                 exact
@@ -45,7 +69,7 @@ export function NavBar() {
             </li>
             <li className="nav-item">
               <div className="mb-3">
-                <img src={ 'assets/img/menu-artistas.png' } alt="" />
+                <img src={ artistas } alt="" />
               </div>
               <NavLink
                 exact
@@ -59,7 +83,7 @@ export function NavBar() {
             </li>
             <li className="nav-item">
               <div className="mb-3">
-                <img src={ 'assets/img/menu-fotos.png' } alt="" />
+                <img src={ fotos } alt="" />
               </div>
               <NavLink
                 exact
@@ -73,7 +97,7 @@ export function NavBar() {
             </li>
             <li className="nav-item">
               <div className="mb-3">
-                <img src={ 'assets/img/menu-contacto.png' } alt="" />
+                <img src={ contacto } alt="" />
               </div>
               <NavLink
                 exact

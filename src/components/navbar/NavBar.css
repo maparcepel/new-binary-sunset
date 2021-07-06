@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: flex-end;
     font-size: 1.6rem;
-    /* position: sticky; */
+    position: relative;
     top: 0;
+    margin-left: auto!important;
+    margin-right: auto!important;
     z-index: 20;
     font-family: 'Pathway Gothic One', sans-serif;
 }
@@ -153,7 +155,7 @@
 
 @media screen and (max-width: 480px) {
     .navbar {
-        height: 120px;
+        height: 110px;
     }
     .nav-icon {
         padding-top: 30px;

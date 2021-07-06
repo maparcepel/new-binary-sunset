@@ -12,14 +12,13 @@ import { Artistas } from './Artistas';
 import { Fotos } from './Fotos';
 import { Contacto } from './Contacto';
 import { NavBar } from './navbar/NavBar';
+import { Footer } from './inicio/Footer';
 
 const AppRouter = () => {
     return ( 
         <Router>
-            <div>
-                
-                
-                    
+            
+
                     <NavBar />
                     
                     <Switch>
@@ -33,8 +32,10 @@ const AppRouter = () => {
                         <Redirect to="/" />
 
                     </Switch>
+
+                    <Footer />
                 
-            </div>
+            
         </Router>
     )
 }
