@@ -6,12 +6,12 @@ export const Artistas = () => {
         <div className="container" id="artistas">
             
             <div className="row">
-                <div className="col-12 ">
+                <div className="col-12 section-title ">
                     <img className="img-fluid" src={ artistas } alt="Equipamiento"/>
                 </div>
             </div>
 
-            <section className="mt-5">
+            <section className="mt-5 mb-5">
                 <div   className="row orange artistas-iframes">
                     <div className="col text-center">
                         <iframe title="Violet1" className='artistas-iframe' src="https://bandcamp.com/EmbeddedPlayer/track=3348700084/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://violetmistake.bandcamp.com/track/seiry">Seiryü by Violet Mistake</a></iframe>

@@ -7,12 +7,16 @@ export const Fotos = () => {
         <div className="container pb-5" id="fotos">
             
             <div className="row">
-                <div className="col-12 ">
+                <div className="col-12 section-title">
                     <img className="img-fluid" src={ fotos } alt="Equipamiento"/>
                 </div>
             </div>
 
-            <SimpleSlider />
+            <div className="row">
+                <SimpleSlider />
+
+            </div>
+            
         </div>
     )
 }

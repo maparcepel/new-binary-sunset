@@ -7,11 +7,11 @@ export const Equipamiento = () => {
         <div className="container" id="equipamiento">
             
             <div className="row">
-                <div className="col-12 ">
+                <div className="col-12  section-title">
                     <img className="img-fluid" src={ equipamiento } alt="Equipamiento"/>
                 </div>
             </div>
-            <section className="ml-1" id="contenido">
+            <section className="ml-1 mb-5" id="contenido">
                 <div className="row">
                     <div className="col-sm-12 col-md-6  mt-5">
 

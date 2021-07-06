@@ -19,15 +19,17 @@ import img15 from './img/slider/foto15.jpg';
 
 export const SimpleSlider = () =>{
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:false,
-    autoplaySpeed: 3000,
+    autoplay:true,
+    fade: true,
+    autoplaySpeed: 4000,
     centerMode: true,
-    touchMove: true
+    touchMove: true,
+    adaptiveHeight: true
   };
   return (
     <Slider {...settings} className="mt-5 pt-5">

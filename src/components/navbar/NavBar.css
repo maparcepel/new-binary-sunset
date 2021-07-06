@@ -155,7 +155,7 @@
 
 @media screen and (max-width: 480px) {
     .navbar {
-        height: 120px;
+        height: 110px;
     }
     .nav-icon {
         padding-top: 30px;
