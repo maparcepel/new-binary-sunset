@@ -17,23 +17,29 @@ import { Footer } from './inicio/Footer';
 const AppRouter = () => {
     return ( 
         <Router>
-            
-
+            <div className="d-flex flex-column justify-content-between border-5 main">
+                <div>
                     <NavBar />
-                    
-                    <Switch>
-                        <Route exact path="/" component={ Inicio } />
+                        
+                        <Switch>
+                            <Route exact path="/" component={ Inicio } />
 
-                        <Route exact path="/Equipamiento" component={ Equipamiento } />
-                        <Route exact path="/Artistas" component={ Artistas } />
-                        <Route exact path="/Fotos" component={ Fotos } />
-                        <Route exact path="/Contacto" component={ Contacto } />
+                            <Route exact path="/Equipamiento" component={ Equipamiento } />
+                            <Route exact path="/Artistas" component={ Artistas } />
+                            <Route exact path="/Fotos" component={ Fotos } />
+                            <Route exact path="/Contacto" component={ Contacto } />
 
-                        <Redirect to="/" />
+                            <Redirect to="/" />
 
-                    </Switch>
-
+                        </Switch>
+                </div>
+                        
+                <div>
                     <Footer />
+                </div>
+            </div>
+            
+                    
                 
             
         </Router>
