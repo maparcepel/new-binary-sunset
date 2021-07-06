@@ -20,7 +20,8 @@ body {
     color: white
 }
 
-#root {
+#root,
+.main {
     height: 100%;
 }
 
@@ -115,10 +116,9 @@ body {
     // padding: 0 50px;
 }
 
-#fotos {
-    height: 100%;
-}
-
+// #fotos {
+//     height: 100%;
+// }
 // @media screen and (max-width: 767px) {
 //     // .slick-slide {
 //     //     width: 100vw!important;
@@ -131,10 +131,9 @@ body {
 //     }
 // }
 //CONTACTO
-#contacto {
-    height: 100%;
-}
-
+// #contacto {
+//     height: 100%;
+// }
 //FOOTER
 .footer {
     color: gray;
