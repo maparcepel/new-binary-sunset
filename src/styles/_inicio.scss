@@ -1,0 +1,47 @@
+//INICIO
+.inicio-carousel {
+    position: relative;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inicio-img2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    transition: opacity 1s ease-in-out;
+}
+
+.inicio-text {
+    color: rgb(223, 223, 223);
+}
+
+@media screen and (min-width: 1200px) {
+    .inicio-text {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+.inicio-right {
+    text-align: right;
+}
+
+.inicio-text-left {
+    border-right: 1px solid rgb(223, 223, 223);
+}
+
+@media screen and (max-width: 576px) {
+    .inicio-text-left {
+        border-right: 0;
+    }
+    .inicio-right {
+        text-align: justify;
+    }
+    .inicio-justify {
+        text-align: justify;
+        margin-top: 30px;
+    }
+}
