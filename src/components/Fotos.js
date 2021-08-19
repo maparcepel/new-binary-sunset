@@ -4,6 +4,7 @@ import { SimpleSlider } from './Slider';
 
 export const Fotos = () => {
     return ( 
+        <>
         <div className="container pb-5" id="fotos">
             
             <div className="row">
@@ -11,12 +12,14 @@ export const Fotos = () => {
                     <img className="img-fluid" src={ fotos } alt="Equipamiento"/>
                 </div>
             </div>
-
+        </div>
+        <div className="container" id="fotos">
             <div className="row">
                 <SimpleSlider />
 
             </div>
             
         </div>
+        </>
     )
 }
