@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import img1 from './img/slider/foto1.jpg';
 import img2 from './img/slider/foto2.jpg';
 import img3 from './img/slider/foto3.jpg';
@@ -18,66 +17,52 @@ import img15 from './img/slider/foto15.jpg';
 
 
 export const SimpleSlider = () =>{
-  var settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay:true,
-    fade: true,
-    autoplaySpeed: 4000,
-    centerMode: true,
-    touchMove: true,
-    adaptiveHeight: true
-  };
+
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15];
+  
   return (
-    <Slider {...settings} className="mt-5 pt-5">
-      <div className="">
-        <img className="img-fluid fotos-margin" src={img1} alt="Binary Sunset" />
+    
+     <div id="carouselExampleIndicators" className="carousel slide mb-5" data-bs-ride="carousel">
+      <div className="carousel-indicators">
+
+        {
+          images.map((img, index) => {
+            return (
+              <button 
+                key={index} 
+                type="button" 
+                data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide-to={`${index}`}
+                className={`${(index === 0) ? 'active' : ''}`}
+                aria-current={`${(index === 0) ? 'true' : ''}`}
+                aria-label={`Slide ${index+1}`}></button>
+            )
+          })
+        }
+
       </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img2} alt="Binary Sunset" />
+      <div className="carousel-inner">
+
+        {
+          images.map((img, index) => {
+            return (
+              <div  key={index} className={`carousel-item ${(img === img1) ? 'active' : ''}`} >
+                <img src={img} className="d-block w-100" alt="..."/>
+              </div>
+            )
+          })
+        }
+
       </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img3} alt="Binary Sunset" />      
-        </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img4} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img5} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img6} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img7} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img8} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img9} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img10} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img11} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img12} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img13} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img14} alt="Binary Sunset" />      
-      </div>
-      <div>
-        <img className="img-fluid fotos-margin" src={img15} alt="Binary Sunset" />      
-      </div>
-    </Slider>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
+    
   );
 }

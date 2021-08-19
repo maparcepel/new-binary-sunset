@@ -25,9 +25,13 @@ body {
     height: 100%;
 }
 
+.section-title {
+    padding-top: 30px;
+}
+
 @media screen and (max-width: 991px) {
     .section-title {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 }
 

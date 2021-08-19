@@ -28,6 +28,7 @@ const AppRouter = () => {
                             <Route exact path="/Artistas" component={ Artistas } />
                             <Route exact path="/Fotos" component={ Fotos } />
                             <Route exact path="/Contacto" component={ Contacto } />
+                            <Route path="/" component={ Inicio } />
 
                             <Redirect to="/" />
 
