@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Redirect,
@@ -20,8 +20,8 @@ const AppRouter = () => {
             <div className="d-flex flex-column justify-content-between border-5 main">
                 <div>
                     <NavBar />
-                        
                         <Switch>
+                            
                             <Route exact path="/" component={ Inicio } />
 
                             <Route exact path="/Equipamiento" component={ Equipamiento } />
